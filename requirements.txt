@@ -1,7 +1,8 @@
-streamlit==1.28.0
-ultralytics==8.1.0
-opencv-python-headless==4.8.0.76
-numpy==1.24.3
+streamlit
+ultralytics
+opencv-python-headless
 setuptools
-torch
-torchvision
+numpy
+pandas
+matplotlib
+pillow
