@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  object-detection:
+    build: .
+    container_name: object-detection-system
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+    devices:
+      - /dev/video0:/dev/video0  # Webcam access
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
