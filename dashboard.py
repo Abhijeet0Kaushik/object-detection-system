@@ -269,7 +269,8 @@ def main():
         demo_videos = {
             "🚗 Traffic Scene (Cars & People)": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/car-detection.mp4",
             "🚶 Pedestrians Walking": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/people-detection.mp4",
-            "🏪 Store Scene": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/bottle-detection.mp4"
+            "🏪 Store Scene": "https://raw.githubusercontent.com/intel-iot-devkit/sample-videos/master/bottle-detection.mp4",
+            "🎬 My Demo": https://github.com/Abhijeet0Kaushik/object-detection-system/blob/552826191239879b9eb30df7fa5efbad9a695e34/sample/4K%20Road%20traffic%20video%20for%20object%20detection%20and%20tracking%20-%20free%20download%20now!.mp4"
         }
         
         selected_demo = st.selectbox(
