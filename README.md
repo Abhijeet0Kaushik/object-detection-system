@@ -91,6 +91,7 @@ object-detection-system/
 - Webcam or video input device
 - (Optional) GPU for faster processing
 
+
 ### Quick Start
 
 1. **Clone the repository**
